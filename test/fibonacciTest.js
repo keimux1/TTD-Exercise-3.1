@@ -3,8 +3,12 @@ const fibonacci = require("../js/Fibonacci");
 
 describe("testing factorial function", function (){
 
-    it("check ing if the test function is failing",function(){
-        assert.equal(fibonacci(0), 1);
+    it("is the 1st number 0)",function(){
+        assert.equal(fibonacci(0), 0);
+    });
+
+    it("is the 2nd number 1)",function(){
+        assert.equal(fibonacci(1), 1);
     });
 
 });
